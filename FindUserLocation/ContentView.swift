@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
+    @ObservedObject private var locationManager = LocationManager()
+    @State private var region = MKCoordinateRegion.defaultRegion
+    
     var body: some View {
         Text("Hello, world!")
             .padding()

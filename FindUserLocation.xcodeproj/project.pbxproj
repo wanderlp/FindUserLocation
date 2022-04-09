@@ -12,6 +12,7 @@
 		7B400D04280249B100D278ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B400D03280249B100D278ED /* Assets.xcassets */; };
 		7B400D07280249B100D278ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B400D06280249B100D278ED /* Preview Assets.xcassets */; };
 		7B400D0F28024A2F00D278ED /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B400D0E28024A2F00D278ED /* LocationManager.swift */; };
+		7B400D1428024E2900D278ED /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B400D1328024E2900D278ED /* MKCoordinateRegion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7B400D03280249B100D278ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B400D06280249B100D278ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B400D0E28024A2F00D278ED /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7B400D1328024E2900D278ED /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		7B400CFE280249B000D278ED /* FindUserLocation */ = {
 			isa = PBXGroup;
 			children = (
+				7B400D1228024E1400D278ED /* Extensions */,
 				7B400D0D28024A1900D278ED /* Managers */,
 				7B400CFF280249B000D278ED /* FindUserLocationApp.swift */,
 				7B400D01280249B000D278ED /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				7B400D0E28024A2F00D278ED /* LocationManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		7B400D1228024E1400D278ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7B400D1328024E2900D278ED /* MKCoordinateRegion.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				7B400D02280249B000D278ED /* ContentView.swift in Sources */,
 				7B400D00280249B000D278ED /* FindUserLocationApp.swift in Sources */,
 				7B400D0F28024A2F00D278ED /* LocationManager.swift in Sources */,
+				7B400D1428024E2900D278ED /* MKCoordinateRegion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
